@@ -13,10 +13,10 @@ import (
 // Paths for packages used by code generated in this file,
 // relative to the import_prefix of the generator.Generator.
 const (
-	corePkgPath     = "github.com/go-chassis/go-chassis/core"
-	commonPkgPath   = "github.com/go-chassis/go-chassis/core/common"
+	corePkgPath     = "github.com/go-chassis/go-chassis/v2/core"
+	commonPkgPath   = "github.com/go-chassis/go-chassis/v2/core/common"
 	contextPkgPath  = "golang.org/x/net/context"
-	clientPkgPath   = "github.com/go-chassis/go-chassis-protocol/client/grpc"
+	clientPkgPath   = "github.com/go-chassis/go-chassis-extension/grpc/client"
 	metadataPkgPath = "google.golang.org/grpc/metadata"
 )
 
